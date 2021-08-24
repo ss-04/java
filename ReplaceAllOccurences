@@ -1,10 +1,11 @@
 public class ReplaceAllOccurences {
 
-	public static void main(String[] args) {
+
+public static void main(String[] args) {
     String str="FAIRY TALES";
-		System.out.println(str.replaceAll("A", ""));
+    System.out.println(str.replaceAll("A", ""));
     
      String str1="JAVA IS COOL";
-		 System.out.println(str1.replace("O", "W"));
+     System.out.println(str1.replace("O", "W"));
 		
 }
