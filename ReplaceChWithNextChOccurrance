@@ -1,0 +1,24 @@
+/******Replace a character in a string with next character occurence *********************
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		replaceCharacter("FAIRY",'R');
+
+	}
+
+public static void replaceCharacter(String str, Character replaceCh){
+		    
+		        char ch[]=str.toCharArray();
+		        for (int i = 0; i < ch.length; i++)
+		        {
+		               if (ch[i]==replaceCh)
+		               {
+		                ch[i]=ch[i+1]; 
+		               }   
+		        }
+		        for (int i = 0; i < ch.length; i++) {
+		            System.out.print(ch[i]);
+		        }
+		    }
+}
