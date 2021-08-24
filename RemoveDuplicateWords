@@ -6,12 +6,12 @@ public class RemoveDuplicates{
 
 public static void main (String args[]){
 
-  //Using Java stream
+  //1.Using Java stream
   String str="This is a test string to remove duplicate word in test string";
   str= Arrays.stream(str.split("\\s+")).distinct().collect(Collectors.joining(" ") );
   System.out.println(str);
   
-  //Using regex
+  //2.Using regex
   str= new LinkedHashSet<String>(Arrays.asList(str.split("\\s+"))).toString().replaceAll("[\\[\\],]","");
   System.out.println(str);   
 
