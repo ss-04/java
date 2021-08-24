@@ -1,5 +1,5 @@
 /******Replace a character in a string with next character occurence *********************
-public class Test3 {
+public class ReplaceCharacter {
 
 	public static void main(String[] args) {
 
