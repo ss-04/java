@@ -2,10 +2,17 @@ public class ReplaceAllOccurences {
 
 
 public static void main(String[] args) {
+    
+    //replace character with empty string
     String str="FAIRY TALES";
     System.out.println(str.replaceAll("A", ""));
     
+    //relace a character with another character
      String str1="JAVA IS COOL";
      System.out.println(str1.replace("O", "W"));
+     
+     //Replace vowels with special characters
+     String str3="The quick brown fox jumps over the lazy dog";
+     System.out.println(str3.replaceAll("[AaEeIiOoUu]", "#"));
 		
 }
